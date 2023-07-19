@@ -1,7 +1,5 @@
 # next-pwa - web push example
 
-[TOC]
-
 This example demonstrates how to use `next-pwa` plugin to implement web push with custom worker.
 
 **NOTE**
@@ -10,13 +8,12 @@ In real world, you may want to send the subscription data to your server once us
 
 ## Usage
 
-[![Open in Gitpod](https://img.shields.io/badge/Open%20In-Gitpod.io-%231966D2?style=for-the-badge&logo=gitpod)](https://gitpod.io/#https://github.com/shadowwalker/next-pwa/)
-
 ``` bash
-cd examples/web-push
+cd PWA-templates/PWA-Web Push Notifications'
 yarn install
 yarn vapid
 ```
+(You can use any pakage manager)
 
 Create a `.env` file, and put the public key generated from the previous steps
 
